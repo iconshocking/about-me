@@ -1,0 +1,137 @@
+@import "normalize.css/normalize.css";
+@import "normalize-extras.css";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.background {
+  background-image: linear-gradient(to bottom, rgb(150 150 255), rgb(0 120 120));
+}
+
+.container {
+  height: 100svh;
+  width: 100%;
+  overflow: auto;
+}
+
+.content {
+  position: relative;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3rem 1.5rem;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  text-shadow: 0.5px 0.5px 1.5px rgb(83 83 83);
+}
+
+h1 {
+  margin: 1.5rem 0 1rem;
+}
+
+h2 {
+  margin-bottom:  1rem;
+  text-transform: uppercase;
+}
+
+hr {
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.top-links {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+
+  > a {
+    + a {
+      padding-left: 0.75rem;
+    }
+
+    > img {
+      width: 6vw;
+      max-width: 32px;
+      filter: invert();
+    }
+  }
+}
+
+.profile-image {
+  height: 20vw;
+  width: 20vw;
+  max-width: 256px;
+  max-height: 256px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.projects {
+  text-align: start;
+  width: 100%;
+
+  section + section {
+    margin-top: 3rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a:not(.non-project-link) {
+    background-color: white;
+    width: fit-content;
+    display: block;
+    padding: 1rem;
+
+    /* negative margin improves perceived visual alignment */
+    margin: 0 0 1rem -2px;
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px rgb(165 165 165);
+    transition: 0.1s;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+
+    &:hover,
+    &:focus {
+      transform: translate(4px, 4px);
+      box-shadow: none;
+    }
+  }
+
+  ul li {
+    margin-top: 2rem;
+  }
+
+  p {
+    + p {
+      margin-top: 1rem;
+    }
+
+    + ul {
+      margin-top: 1rem;
+    }
+  }
+
+  .project-features {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  ul.project-tight-list {
+    list-style: inside square;
+
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+}
