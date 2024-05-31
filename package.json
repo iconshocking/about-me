@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && vite build && echo 'me.cshock.tech' > docs/CNAME",
     "preview": "vite preview",
     "eval": "hint docs/index.html && axe http://localhost:4173 && lighthouse http://localhost:4173",
     "eval-live": "hint -c .hintrc-prod https://me.cshock.tech && axe https://me.cshock.tech && lighthouse https://me.cshock.tech"
