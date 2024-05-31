@@ -16,9 +16,12 @@
   overflow: auto;
 }
 
-.content {
+.bounding-box {
   position: relative;
   max-width: 800px;
+}
+
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,6 +61,7 @@ hr {
     }
 
     > img {
+      height: auto;
       width: 6vw;
       max-width: 32px;
       filter: invert();
@@ -77,6 +81,10 @@ hr {
 .projects {
   text-align: start;
   width: 100%;
+
+  h2 {
+    text-align: center;
+  }
 
   section + section {
     margin-top: 3rem;

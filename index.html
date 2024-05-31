@@ -24,8 +24,8 @@
   </head>
   <body class="background">
     <div class="container">
-      <main class="content">
-        <div class="top-links">
+      <div class="bounding-box">
+        <aside class="top-links">
           <a href="https://github.com/iconshocking">
             <img src="src/images/github.png" alt="GitHub" title="GitHub" height="32" width="32"
           /></a>
@@ -37,8 +37,9 @@
               height="32"
               width="32"
           /></a>
-        </div>
+        </aside>
 
+        <main class="content">
           <picture>
             <source srcset="src/images//profile.webp" type="image/webp" />
             <img
@@ -51,26 +52,26 @@
             />
           </picture>
 
-        <h1>Conrad Shock</h1>
-        <p>Full-stack web engineer focused on ecological and social good with impact.</p>
+          <h1>Conrad Shock</h1>
+          <p>Full-stack web engineer focused on ecological and social good with impact.</p>
 
-        <hr />
+          <hr />
 
-        <h2>Projects</h2>
-        <section class="projects">
-          <section>
-            <a href="https://playground.fly-io.cshock.tech/">Library Catalog</a>
-            <p>Project used to learn Django.</p>
-            <p class="project-features"><strong>Structure</strong></p>
-            <ul class="project-tight-list">
-              <li>Dockerfiles (w/ Docker Compose for local dev)</li>
-              <li>Nginx</li>
-              <li>Gunicorn running Django</li>
-              <li>Postgres</li>
-              <li>Redis</li>
-              <li>Cloudflare R2</li>
-              <li>Prometheus + Loki + Tempo agents into Grafana Cloud</li>
-              <!-- <li>Containerized services</li>
+          <section class="projects">
+            <h2>Projects</h2>
+            <section>
+              <a href="https://playground.fly-io.cshock.tech/">Library Catalog</a>
+              <p>Project used to learn Django.</p>
+              <p class="project-features"><strong>Structure</strong></p>
+              <ul class="project-tight-list">
+                <li>Dockerfiles (w/ Docker Compose for local dev)</li>
+                <li>Nginx</li>
+                <li>Gunicorn running Django</li>
+                <li>Postgres</li>
+                <li>Redis</li>
+                <li>Cloudflare R2</li>
+                <li>Prometheus + Loki + Tempo agents into Grafana Cloud</li>
+                <!-- <li>Containerized services</li>
             <li>
               Nginx for serving static assets (WhiteNoise is common to avoid needing Nginx as much
               but wanted to learn)
@@ -86,74 +87,75 @@
               Prometheus + Loki + Tempo data sources in Grafana Cloud ingesting observability data
               pushed via Prometheus, promtail, and Tempo agents
             </li> -->
-            </ul>
+              </ul>
+            </section>
+
+            <section>
+              <a href="https://github.com/iconshocking/learning_web">Notes from learning web dev</a>
+              <p>
+                My personal collection of notes from learning web development. Intending to create
+                similar repos when learning new technologies/domains.
+              </p>
+              <p class="project-features"><strong>Covers:</strong></p>
+              <ul class="project-tight-list">
+                <li>HTML + CSS</li>
+                <li>Javascript</li>
+                <li>JS Testing</li>
+                <li>Bundling</li>
+                <li>Python</li>
+                <li>Django</li>
+                <li>Web security</li>
+                <li>Web dev best practices</li>
+              </ul>
+            </section>
+
+            <section>
+              <a href="https://github.com/iconshocking/adventofcode">Advent of Code</a>
+              <p>
+                Personal solutions to
+                <a href="https://adventofcode.com/" class="non-project-link">Advent of Code</a>,
+                yearly December programming challenges focusing on algorithms.
+              </p>
+            </section>
           </section>
 
-          <section>
-            <a href="https://github.com/iconshocking/learning_web">Notes from learning web dev</a>
-            <p>
-              My personal collection of notes from learning web development. Intending to create
-              similar repos when learning new technologies/domains.
-            </p>
-            <p class="project-features"><strong>Covers:</strong></p>
-            <ul class="project-tight-list">
-              <li>HTML + CSS</li>
-              <li>Javascript</li>
-              <li>JS Testing</li>
-              <li>Bundling</li>
-              <li>Python</li>
-              <li>Django</li>
-              <li>Web security</li>
-              <li>Web dev best practices</li>
-            </ul>
-          </section>
+          <hr />
 
-          <section>
-            <a href="https://github.com/iconshocking/adventofcode">Advent of Code</a>
-            <p>
-              Personal solutions to
-              <a href="https://adventofcode.com/" class="non-project-link">Advent of Code</a>,
-              yearly December programming challenges focusing on algorithms.
+          <section class="projects">
+            <h2>Volunteer Tech</h2>
+            <p class="p-spacer">
+              As part of
+              <a
+                href="https://techequitycollaborative.org/civic-tech-projects/"
+                class="non-project-link"
+                >TechEquity Collaborative's civic tech team</a
+              >:
             </p>
-          </section>
-        </section>
 
-        <hr />
-
-        <h2>Volunteer Tech</h2>
-        <section class="projects">
-          <p class="p-spacer">
-            As part of
-            <a
-              href="https://techequitycollaborative.org/civic-tech-projects/"
-              class="non-project-link"
-              >TechEquity Collaborative's civic tech team</a
-            >:
-          </p>
-
-          <section>
-            <a href="https://form.techbias.org">form.techbias.org</a>
-            <p>
-              Form to study impact of algorithm-backed tenant screening technology (part of the
-              <a href="https://housing.techbias.org/" class="non-project-link"
-                >Tech, Bias, and Housing Initiative</a
-              >)
-            </p>
-            <p>
-              <strong>Contributions:</strong> form validation, form field components, database
-              write, and navigation fixes
-            </p>
+            <section>
+              <a href="https://form.techbias.org">form.techbias.org</a>
+              <p>
+                Form to study impact of algorithm-backed tenant screening technology (part of the
+                <a href="https://housing.techbias.org/" class="non-project-link"
+                  >Tech, Bias, and Housing Initiative</a
+                >)
+              </p>
+              <p>
+                <strong>Contributions:</strong> form validation, form field components, database
+                write, and navigation fixes
+              </p>
+            </section>
+            <section>
+              <a href="https://tenantprotections.org">tenantprotections.org</a>
+              <p>Tools for CA tenants to determine legality of a rent increase</p>
+              <p>
+                <strong>Contributions:</strong> zip code handling (unincorporated areas and
+                multi-city zip codes) and minor fixes
+              </p>
+            </section>
           </section>
-          <section>
-            <a href="https://tenantprotections.org">tenantprotections.org</a>
-            <p>Tools for CA tenants to determine legality of a rent increase</p>
-            <p>
-              <strong>Contributions:</strong> zip code handling (unincorporated areas and multi-city
-              zip codes) and minor fixes
-            </p>
-          </section>
-        </section>
-      </main>
+        </main>
+      </div>
     </div>
   </body>
 </html>
