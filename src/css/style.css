@@ -19,6 +19,7 @@
 .bounding-box {
   position: relative;
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .content {
@@ -27,7 +28,6 @@
   align-items: center;
   justify-content: flex-start;
   padding: 3rem 1.5rem;
-  margin: 0 auto;
 }
 
 h1,
