@@ -1,6 +1,6 @@
 {
   "extends": [
-    "web-recommended"
+    "development"
   ],
   "hints": {
     "compat-api/css": [
@@ -10,6 +10,14 @@
           "width: fit-content",
           "-webkit-text-size-adjust",
           "content-type"
+        ]
+      }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "meta[name=theme-color]"
         ]
       }
     ]

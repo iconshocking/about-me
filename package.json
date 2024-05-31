@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "eval": "hint http://localhost:4173 && lighthouse http://localhost:4173 && axe http://localhost:4173"
+    "eval": "hint docs/index.html && axe http://localhost:4173 && lighthouse http://localhost:4173",
+    "eval-live": "hint -c .hintrc-prod https://me.cshock.tech && axe https://me.cshock.tech && lighthouse https://me.cshock.tech"
   },
   "devDependencies": {
     "@axe-core/cli": "^4.9.1",
