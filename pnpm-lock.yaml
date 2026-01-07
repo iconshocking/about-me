@@ -31,7 +31,7 @@ importers:
         specifier: ^15.15.0
         version: 15.15.0
       got:
-        specifier: 11.8.5
+        specifier: '>=11.8.5'
         version: 11.8.5
       hint:
         specifier: ^7.1.13
@@ -55,8 +55,8 @@ importers:
         specifier: ^13.1.0
         version: 13.1.0(postcss@8.5.6)(stylelint@16.26.1(typescript@5.9.3))
       tar-fs:
-        specifier: 2.1.4
-        version: 2.1.4
+        specifier: '>=2.1.4'
+        version: 3.1.1
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -70,8 +70,8 @@ importers:
         specifier: ^1.8.1
         version: 1.8.1(eslint@9.39.2)(vite@7.3.0(@types/node@20.19.27)(sass@1.97.2))
       ws:
-        specifier: 8.17.1
-        version: 8.17.1
+        specifier: '>=8.17.1'
+        version: 8.19.0
 
 packages:
 
@@ -3632,9 +3632,6 @@ packages:
   tar-fs@2.1.1:
     resolution: {integrity: sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==}
 
-  tar-fs@2.1.4:
-    resolution: {integrity: sha512-mDAjwmZdh7LTT6pNleZ05Yt65HC3E+NiQzl672vQG38jIrehtJk/J3mNwIg+vShQPcLF/LV7CMnDW6vjj6sfYQ==}
-
   tar-fs@3.1.1:
     resolution: {integrity: sha512-LZA0oaPOc2fVo82Txf3gw+AkEd38szODlptMYejQUhndHMLQ9M059uXR+AfS7DNo0NpINvSqDsvyaCrBVkptWg==}
 
@@ -3942,18 +3939,6 @@ packages:
     peerDependencies:
       bufferutil: ^4.0.1
       utf-8-validate: ^5.0.2
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
-
-  ws@8.17.1:
-    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: '>=5.0.2'
     peerDependenciesMeta:
       bufferutil:
         optional: true
@@ -6267,7 +6252,8 @@ snapshots:
     dependencies:
       readdirp: 4.1.2
 
-  chownr@1.1.4: {}
+  chownr@1.1.4:
+    optional: true
 
   chownr@2.0.0: {}
 
@@ -6872,7 +6858,8 @@ snapshots:
 
   fraction.js@5.3.4: {}
 
-  fs-constants@1.0.0: {}
+  fs-constants@1.0.0:
+    optional: true
 
   fs-extra@11.3.3:
     dependencies:
@@ -7350,7 +7337,7 @@ snapshots:
       whatwg-encoding: 2.0.0
       whatwg-mimetype: 3.0.0
       whatwg-url: 12.0.1
-      ws: 8.17.1
+      ws: 8.19.0
       xml-name-validator: 4.0.0
     optionalDependencies:
       canvas: 2.11.2(encoding@0.1.13)
@@ -7641,7 +7628,8 @@ snapshots:
 
   mitt@3.0.1: {}
 
-  mkdirp-classic@0.5.3: {}
+  mkdirp-classic@0.5.3:
+    optional: true
 
   mkdirp@1.0.4: {}
 
@@ -8500,13 +8488,6 @@ snapshots:
       tar-stream: 2.2.0
     optional: true
 
-  tar-fs@2.1.4:
-    dependencies:
-      chownr: 1.1.4
-      mkdirp-classic: 0.5.3
-      pump: 3.0.3
-      tar-stream: 2.2.0
-
   tar-fs@3.1.1:
     dependencies:
       pump: 3.0.3
@@ -8526,6 +8507,7 @@ snapshots:
       fs-constants: 1.0.0
       inherits: 2.0.4
       readable-stream: 3.6.2
+    optional: true
 
   tar-stream@3.1.7:
     dependencies:
@@ -8831,8 +8813,6 @@ snapshots:
       signal-exit: 4.1.0
 
   ws@7.5.10: {}
-
-  ws@8.17.1: {}
 
   ws@8.19.0: {}
 
