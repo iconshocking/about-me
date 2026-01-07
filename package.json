@@ -32,8 +32,8 @@
   "dependencies": {
     "normalize.css": "^8.0.1"
   },
-  "overrides": {
-    "hint": {
+  "pnpm": {
+    "overrides": {
       "got": ">=11.8.5",
       "tar-fs": ">=2.1.4",
       "ws": ">=8.17.1"
