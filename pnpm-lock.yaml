@@ -30,9 +30,6 @@ importers:
       globals:
         specifier: ^15.15.0
         version: 15.15.0
-      got:
-        specifier: '>=11.8.5'
-        version: 11.8.5
       hint:
         specifier: ^7.1.13
         version: 7.1.13(canvas@2.11.2(encoding@0.1.13))(encoding@0.1.13)(typescript@5.9.3)
@@ -54,9 +51,6 @@ importers:
       stylelint-config-standard-scss:
         specifier: ^13.1.0
         version: 13.1.0(postcss@8.5.6)(stylelint@16.26.1(typescript@5.9.3))
-      tar-fs:
-        specifier: '>=2.1.4'
-        version: 3.1.1
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -69,9 +63,6 @@ importers:
       vite-plugin-eslint:
         specifier: ^1.8.1
         version: 1.8.1(eslint@9.39.2)(vite@7.3.0(@types/node@20.19.27)(sass@1.97.2))
-      ws:
-        specifier: '>=8.17.1'
-        version: 8.19.0
 
 packages:
 
@@ -5727,7 +5718,8 @@ snapshots:
 
   '@sindresorhus/is@0.14.0': {}
 
-  '@sindresorhus/is@4.6.0': {}
+  '@sindresorhus/is@4.6.0':
+    optional: true
 
   '@szmarczak/http-timer@1.1.2':
     dependencies:
@@ -5736,6 +5728,7 @@ snapshots:
   '@szmarczak/http-timer@4.0.6':
     dependencies:
       defer-to-connect: 2.0.1
+    optional: true
 
   '@testim/chrome-version@1.1.4': {}
 
@@ -5751,6 +5744,7 @@ snapshots:
       '@types/keyv': 3.1.4
       '@types/node': 20.19.27
       '@types/responselike': 1.0.3
+    optional: true
 
   '@types/connect@3.4.38':
     dependencies:
@@ -5768,7 +5762,8 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@types/http-cache-semantics@4.0.4': {}
+  '@types/http-cache-semantics@4.0.4':
+    optional: true
 
   '@types/json-schema@7.0.15': {}
 
@@ -6179,7 +6174,8 @@ snapshots:
       tar: 6.2.1
       unique-filename: 3.0.0
 
-  cacheable-lookup@5.0.4: {}
+  cacheable-lookup@5.0.4:
+    optional: true
 
   cacheable-request@6.1.0:
     dependencies:
@@ -6200,6 +6196,7 @@ snapshots:
       lowercase-keys: 2.0.0
       normalize-url: 6.1.0
       responselike: 2.0.1
+    optional: true
 
   cacheable@2.3.1:
     dependencies:
@@ -6465,6 +6462,7 @@ snapshots:
   decompress-response@6.0.0:
     dependencies:
       mimic-response: 3.1.0
+    optional: true
 
   deep-extend@0.6.0: {}
 
@@ -6476,7 +6474,8 @@ snapshots:
 
   defer-to-connect@1.1.3: {}
 
-  defer-to-connect@2.0.1: {}
+  defer-to-connect@2.0.1:
+    optional: true
 
   define-lazy-prop@2.0.0: {}
 
@@ -7009,6 +7008,7 @@ snapshots:
       lowercase-keys: 2.0.0
       p-cancelable: 2.1.1
       responselike: 2.0.1
+    optional: true
 
   got@9.6.0:
     dependencies:
@@ -7118,6 +7118,7 @@ snapshots:
     dependencies:
       quick-lru: 5.1.1
       resolve-alpn: 1.2.1
+    optional: true
 
   https-proxy-agent@5.0.1:
     dependencies:
@@ -7567,7 +7568,8 @@ snapshots:
   mimic-response@2.1.0:
     optional: true
 
-  mimic-response@3.1.0: {}
+  mimic-response@3.1.0:
+    optional: true
 
   minimatch@3.1.2:
     dependencies:
@@ -7680,7 +7682,8 @@ snapshots:
 
   normalize-url@4.5.1: {}
 
-  normalize-url@6.1.0: {}
+  normalize-url@6.1.0:
+    optional: true
 
   normalize.css@8.0.1: {}
 
@@ -7769,7 +7772,8 @@ snapshots:
 
   p-cancelable@1.1.0: {}
 
-  p-cancelable@2.1.1: {}
+  p-cancelable@2.1.1:
+    optional: true
 
   p-defer@1.0.0: {}
 
@@ -8056,7 +8060,8 @@ snapshots:
       inherits: 2.0.4
     optional: true
 
-  quick-lru@5.1.1: {}
+  quick-lru@5.1.1:
+    optional: true
 
   rc@1.2.8:
     dependencies:
@@ -8123,7 +8128,8 @@ snapshots:
   requires-port@1.0.0:
     optional: true
 
-  resolve-alpn@1.2.1: {}
+  resolve-alpn@1.2.1:
+    optional: true
 
   resolve-from@4.0.0: {}
 
@@ -8142,6 +8148,7 @@ snapshots:
   responselike@2.0.1:
     dependencies:
       lowercase-keys: 2.0.0
+    optional: true
 
   restore-cursor@3.1.0:
     dependencies:
