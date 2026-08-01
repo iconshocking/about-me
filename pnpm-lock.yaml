@@ -28,7 +28,7 @@ importers:
         version: 20.19.27
       autoprefixer:
         specifier: ^10.4.23
-        version: 10.4.23(postcss@8.5.10)
+        version: 10.4.23(postcss@8.5.18)
       eslint:
         specifier: ~9.39.2
         version: 9.39.2
@@ -42,11 +42,11 @@ importers:
         specifier: ^12.8.2
         version: 12.8.2
       postcss:
-        specifier: ^8.5.10
-        version: 8.5.10
+        specifier: ^8.5.18
+        version: 8.5.18
       postcss-scss:
         specifier: ^4.0.9
-        version: 4.0.9(postcss@8.5.10)
+        version: 4.0.9(postcss@8.5.18)
       sass:
         specifier: ^1.97.2
         version: 1.97.2
@@ -55,7 +55,7 @@ importers:
         version: 16.26.1(typescript@5.9.3)
       stylelint-config-standard-scss:
         specifier: ^13.1.0
-        version: 13.1.0(postcss@8.5.10)(stylelint@16.26.1(typescript@5.9.3))
+        version: 13.1.0(postcss@8.5.18)(stylelint@16.26.1(typescript@5.9.3))
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -1508,8 +1508,8 @@ packages:
     resolution: {integrity: sha512-BASOg+YwO2C+346x3LZOeoovTIoTrRqEsqMa6fmfAV0P+U9mFr9NsyOEpiYvFjbc64NMrSswhV50WdXzdb/Z5A==}
     engines: {node: '>=4'}
 
-  axios@1.18.1:
-    resolution: {integrity: sha512-3nTvFlvpn9Zu/RkHUqtc7/+al4UpRW5az71ap5zccp6e8RAYEzhMTecX8Dz1wWDYrPpUoB1HAQEGEAEvUr7S9g==}
+  axios@1.19.0:
+    resolution: {integrity: sha512-ht/iuYZXEjFxLH/Hkezgd7m6JKlHHXEUSneaDz8uZe1Gj5QZtCnpyDsckvAiEnT89OEbCLmnte4R4sn7P0EKFw==}
 
   b4a@1.7.3:
     resolution: {integrity: sha512-5Q2mfq2WfGuFp3uS//0s6baOJLMoVduPYVeNmDYxu5OUA1/cBfvr2RIS7vi62LdNj/urk1hfmj867I3qt6uZ7Q==}
@@ -1671,8 +1671,8 @@ packages:
     engines: {node: '>=12.13.0'}
     hasBin: true
 
-  chromedriver@150.0.1:
-    resolution: {integrity: sha512-vpYskeQFyZGPNMEwc/5fuvfnxzfjljCO1EvwuF0dZGQ8KE0repYQar7eThTlT1IjznwVrirYRgXrRsJts7DRIQ==}
+  chromedriver@151.0.2:
+    resolution: {integrity: sha512-p2NI0qrBSpoksa9S4lxqpML28I1U1oMtNPyvbjiMlBB+JOn9qRQC/cuiAWPf36lAdsYgrqhQczb12UH2he04MQ==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -2499,8 +2499,8 @@ packages:
     resolution: {integrity: sha512-CYdFeFexxhv/Bcny+Q0BfOV+ltRlJcd4BBZBYFX/O0u4npJrgZtIcjokegtiSMAvlMTJ+Koq0GBCc//3bueQxw==}
     engines: {node: '>=8'}
 
-  ip-address@10.2.0:
-    resolution: {integrity: sha512-/+S6j4E9AHvW9SWMSEY9Xfy66O5PWvVEJ08O0y5JGyEKQpojb0K0GKpz/v5HJ/G0vi3D2sjGK78119oXZeE0qA==}
+  ip-address@10.4.0:
+    resolution: {integrity: sha512-oSK96Grm3aP6OrS263xVxbNDGVL7rzBtYdpGqlDG8iQdoenDoTs/nkki+DflYbAEE8Xl6o5YxhxlrKvI3nqKXQ==}
     engines: {node: '>= 12'}
 
   ip-regex@2.1.0:
@@ -2910,8 +2910,8 @@ packages:
   nan@2.24.0:
     resolution: {integrity: sha512-Vpf9qnVW1RaDkoNKFUvfxqAbtI8ncb8OJlqZ9wwpXzWPEsvsB1nvdUi6oYrHIkQ1Y/tMDnr1h4nczS0VB9Xykg==}
 
-  nanoid@3.3.15:
-    resolution: {integrity: sha512-y7Wygv/7mEOvxTuEQDB8StXdMRBWf1kR/tlhAzBRUFkB2jfcLOAxO/SHmOO2zgz1pVgK29/kyupn059/bCHdjA==}
+  nanoid@3.3.16:
+    resolution: {integrity: sha512-bzlKTyNJ7+LdGIIwy8ijFpIqEQIvafahV7eYykJ8Cvh42EdJeODoJ6gUJXpQJvej1BddH8OqTXZNE/KfbWAu8Q==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -3198,8 +3198,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.5.10:
-    resolution: {integrity: sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ==}
+  postcss@8.5.18:
+    resolution: {integrity: sha512-xdB1oSLHbz1vRWgCDalrCqEFTWzFlhqFC5tIHLMOSUIjhm3XXQ1qrFy8S/ESr1JYRRXqM3c1QFiMZUJdUTqyMQ==}
     engines: {node: ^10 || ^12 || >=14}
 
   postgres-array@2.0.0:
@@ -4000,7 +4000,7 @@ snapshots:
     dependencies:
       '@axe-core/webdriverjs': 4.11.0(selenium-webdriver@4.35.0)
       axe-core: 4.11.1
-      chromedriver: 150.0.1
+      chromedriver: 151.0.2
       colors: 1.4.0
       commander: 9.5.0
       dotenv: 17.2.3
@@ -4571,7 +4571,7 @@ snapshots:
       '@hint/utils-i18n': 1.0.15
       '@hint/utils-types': 1.2.1
       hint: 7.1.13(canvas@2.11.2(encoding@0.1.13))(encoding@0.1.13)(typescript@5.9.3)
-      postcss: 8.5.10
+      postcss: 8.5.18
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -4585,7 +4585,7 @@ snapshots:
       '@hint/utils-i18n': 1.0.15
       '@hint/utils-types': 1.2.1
       hint: 7.1.13(canvas@2.11.2(encoding@0.1.13))(encoding@0.1.13)(typescript@5.9.3)
-      postcss: 8.5.10
+      postcss: 8.5.18
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -4965,8 +4965,8 @@ snapshots:
       '@hint/utils-debug': 1.0.11
       '@hint/utils-string': 1.0.14
       hint: 7.1.13(canvas@2.11.2(encoding@0.1.13))(encoding@0.1.13)(typescript@5.9.3)
-      postcss: 8.5.10
-      postcss-safe-parser: 6.0.0(postcss@8.5.10)
+      postcss: 8.5.18
+      postcss-safe-parser: 6.0.0(postcss@8.5.18)
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -5010,7 +5010,7 @@ snapshots:
       '@hint/utils-debug': 1.0.11
       '@hint/utils-string': 1.0.14
       hint: 7.1.13(canvas@2.11.2(encoding@0.1.13))(encoding@0.1.13)(typescript@5.9.3)
-      postcss: 8.5.10
+      postcss: 8.5.18
       postcss-less: 5.0.0
     transitivePeerDependencies:
       - supports-color
@@ -5033,9 +5033,9 @@ snapshots:
       '@hint/utils-debug': 1.0.11
       '@hint/utils-string': 1.0.14
       hint: 7.1.13(canvas@2.11.2(encoding@0.1.13))(encoding@0.1.13)(typescript@5.9.3)
-      postcss: 8.5.10
+      postcss: 8.5.18
       postcss-sass: 0.5.0
-      postcss-scss: 4.0.9(postcss@8.5.10)
+      postcss-scss: 4.0.9(postcss@8.5.18)
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -6034,18 +6034,18 @@ snapshots:
       stubborn-fs: 2.0.0
       when-exit: 2.1.5
 
-  autoprefixer@10.4.23(postcss@8.5.10):
+  autoprefixer@10.4.23(postcss@8.5.18):
     dependencies:
       browserslist: 4.28.1
       caniuse-lite: 1.0.30001762
       fraction.js: 5.3.4
       picocolors: 1.1.1
-      postcss: 8.5.10
+      postcss: 8.5.18
       postcss-value-parser: 4.2.0
 
   axe-core@4.11.1: {}
 
-  axios@1.18.1:
+  axios@1.19.0:
     dependencies:
       follow-redirects: 1.16.0
       form-data: 4.0.6
@@ -6252,11 +6252,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  chromedriver@150.0.1:
+  chromedriver@151.0.2:
     dependencies:
       '@testim/chrome-version': 1.1.4
       adm-zip: 0.5.18
-      axios: 1.18.1
+      axios: 1.19.0
       compare-versions: 6.1.1
       proxy-agent: 8.0.2
       proxy-from-env: 2.1.0
@@ -7196,7 +7196,7 @@ snapshots:
 
   invert-kv@3.0.1: {}
 
-  ip-address@10.2.0: {}
+  ip-address@10.4.0: {}
 
   ip-regex@2.1.0: {}
 
@@ -7628,7 +7628,7 @@ snapshots:
   nan@2.24.0:
     optional: true
 
-  nanoid@3.3.15: {}
+  nanoid@3.3.16: {}
 
   natural-compare@1.4.0: {}
 
@@ -7904,24 +7904,24 @@ snapshots:
 
   postcss-resolve-nested-selector@0.1.6: {}
 
-  postcss-safe-parser@6.0.0(postcss@8.5.10):
+  postcss-safe-parser@6.0.0(postcss@8.5.18):
     dependencies:
-      postcss: 8.5.10
+      postcss: 8.5.18
     optional: true
 
-  postcss-safe-parser@7.0.1(postcss@8.5.10):
+  postcss-safe-parser@7.0.1(postcss@8.5.18):
     dependencies:
-      postcss: 8.5.10
+      postcss: 8.5.18
 
   postcss-sass@0.5.0:
     dependencies:
       gonzales-pe: 4.3.0
-      postcss: 8.5.10
+      postcss: 8.5.18
     optional: true
 
-  postcss-scss@4.0.9(postcss@8.5.10):
+  postcss-scss@4.0.9(postcss@8.5.18):
     dependencies:
-      postcss: 8.5.10
+      postcss: 8.5.18
 
   postcss-selector-parser@6.1.2:
     dependencies:
@@ -7936,9 +7936,9 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  postcss@8.5.10:
+  postcss@8.5.18:
     dependencies:
-      nanoid: 3.3.15
+      nanoid: 3.3.16
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -8323,7 +8323,7 @@ snapshots:
 
   socks@2.8.9:
     dependencies:
-      ip-address: 10.2.0
+      ip-address: 10.4.0
       smart-buffer: 4.2.0
 
   source-map-js@1.2.1: {}
@@ -8397,26 +8397,26 @@ snapshots:
 
   stubborn-utils@1.0.2: {}
 
-  stylelint-config-recommended-scss@14.1.0(postcss@8.5.10)(stylelint@16.26.1(typescript@5.9.3)):
+  stylelint-config-recommended-scss@14.1.0(postcss@8.5.18)(stylelint@16.26.1(typescript@5.9.3)):
     dependencies:
-      postcss-scss: 4.0.9(postcss@8.5.10)
+      postcss-scss: 4.0.9(postcss@8.5.18)
       stylelint: 16.26.1(typescript@5.9.3)
       stylelint-config-recommended: 14.0.1(stylelint@16.26.1(typescript@5.9.3))
       stylelint-scss: 6.14.0(stylelint@16.26.1(typescript@5.9.3))
     optionalDependencies:
-      postcss: 8.5.10
+      postcss: 8.5.18
 
   stylelint-config-recommended@14.0.1(stylelint@16.26.1(typescript@5.9.3)):
     dependencies:
       stylelint: 16.26.1(typescript@5.9.3)
 
-  stylelint-config-standard-scss@13.1.0(postcss@8.5.10)(stylelint@16.26.1(typescript@5.9.3)):
+  stylelint-config-standard-scss@13.1.0(postcss@8.5.18)(stylelint@16.26.1(typescript@5.9.3)):
     dependencies:
       stylelint: 16.26.1(typescript@5.9.3)
-      stylelint-config-recommended-scss: 14.1.0(postcss@8.5.10)(stylelint@16.26.1(typescript@5.9.3))
+      stylelint-config-recommended-scss: 14.1.0(postcss@8.5.18)(stylelint@16.26.1(typescript@5.9.3))
       stylelint-config-standard: 36.0.1(stylelint@16.26.1(typescript@5.9.3))
     optionalDependencies:
-      postcss: 8.5.10
+      postcss: 8.5.18
 
   stylelint-config-standard@36.0.1(stylelint@16.26.1(typescript@5.9.3)):
     dependencies:
@@ -8465,9 +8465,9 @@ snapshots:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.5.10
+      postcss: 8.5.18
       postcss-resolve-nested-selector: 0.1.6
-      postcss-safe-parser: 7.0.1(postcss@8.5.10)
+      postcss-safe-parser: 7.0.1(postcss@8.5.18)
       postcss-selector-parser: 7.1.1
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
@@ -8717,7 +8717,7 @@ snapshots:
       esbuild: 0.27.7
       fdir: 6.5.0(picomatch@4.0.5)
       picomatch: 4.0.5
-      postcss: 8.5.10
+      postcss: 8.5.18
       rollup: 4.62.2
       tinyglobby: 0.2.17
     optionalDependencies:
